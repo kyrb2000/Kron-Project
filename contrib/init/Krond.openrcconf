@@ -1,0 +1,33 @@
+# /etc/conf.d/Krond: config file for /etc/init.d/Krond
+
+# Config file location
+#KronD_CONFIGFILE="/etc/Kron/Kron.conf"
+
+# What directory to write pidfile to?  (created and owned by $KronD_USER)
+#KronD_PIDDIR="/var/run/Krond"
+
+# What filename to give the pidfile
+#KronD_PIDFILE="${KronD_PIDDIR}/Krond.pid"
+
+# Where to write Krond data (be mindful that the blockchain is large)
+#KronD_DATADIR="/var/lib/Krond"
+
+# User and group to own Krond process
+#KronD_USER="Kron"
+#KronD_GROUP="Kron"
+
+# Path to Krond executable
+#KronD_BIN="/usr/bin/Krond"
+
+# Nice value to run Krond under
+#KronD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#KronD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for Krond to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+KronD_SIGTERM_TIMEOUT=60

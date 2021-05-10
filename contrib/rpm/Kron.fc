@@ -1,0 +1,8 @@
+/usr/bin/Kron-cli		--	gen_context(system_u:object_r:Kron_exec_t,s0)
+/usr/sbin/Krond		--	gen_context(system_u:object_r:Kron_exec_t,s0)
+/usr/lib(64)?/Kron/Krond		--	gen_context(system_u:object_r:Kron_exec_t,s0)
+
+/etc/Kron(/.*)?		gen_context(system_u:object_r:Kron_conf_t,s0)
+/var/lib/Kron(/.*)?		gen_context(system_u:object_r:Kron_var_lib_t,s0)
+
+(/var)?/run/Krond(/.*)?   gen_context(system_u:object_r:Kron_var_run_t,s0)

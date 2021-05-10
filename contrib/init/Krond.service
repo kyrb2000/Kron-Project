@@ -1,0 +1,22 @@
+[Unit]
+Description=Kron's distributed currency daemon
+After=network.target
+
+[Service]
+User=Kron
+Group=Kron
+
+Type=forking
+PIDFile=/var/lib/Krond/Krond.pid
+ExecStart=/usr/bin/Krond -daemon -pid=/var/lib/Krond/Krond.pid \
+-conf=/etc/Kron/Kron.conf -datadir=/var/lib/Krond -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
