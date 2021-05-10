@@ -1,0 +1,6 @@
+usr/local/bin/Kron-qt usr/bin
+share/pixmaps/Kron32.xpm usr/share/pixmaps
+share/pixmaps/Kron16.xpm usr/share/pixmaps
+share/pixmaps/Kron128.png usr/share/pixmaps
+debian/Kron-qt.desktop usr/share/applications
+debian/Kron-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Kron Core
+Comment=Connect to the Kron P2P Network
+Comment[de]=Verbinde mit dem Kron peer-to-peer Netzwerk
+Comment[fr]=Kron, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Kron, eşten eşe kriptografik sanal para birimi
+Exec=Kron-qt %u
+Terminal=false
+Type=Application
+Icon=Kron128
+MimeType=x-scheme-handler/Kron;
+Categories=Office;Finance;
