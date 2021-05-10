@@ -1,0 +1,23 @@
+FROM arm32v7/ubuntu:latest
+
+MAINTAINER cade <cade.call@mediciventures.com>
+
+EXPOSE $RPCPORT
+
+EXPOSE $PORT
+
+RUN useradd -ms /bin/bash Kron
+
+RUN mkdir /etc/Kron
+
+RUN mkdir /var/lib/Kron
+
+RUN chown Kron:Kron /etc/Kron /var/lib/Kron
+
+WORKDIR /home/Kron
+
+COPY --chown=Kron:Kron linux64/* ./run.sh /home/Kron/
+
+USER Kron
+
+CMD ["/home/Kron/run.sh"]
