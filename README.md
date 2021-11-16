@@ -271,6 +271,6 @@ Los derechos de nomenclatura en la cadena de bloques se analizan por orden de ll
 totalmente únicos que no se pueden replicar.
 Kron es la moneda nativa de la su Blockchain. Como en la mayoría de las blockchains, sirve como
 incentivo y se utiliza para pagar las tarifas de la red y para recompensar el trabajo de los
-desarrolladores y de los mineros.
+desarrolladores.
 
 Desarrollado Por:          Jober Urizare
