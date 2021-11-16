@@ -3,7 +3,7 @@ Kron Core integration/staging tree
 Kron (Kron)
 Un sistema electrónico peer to peer para la Creación y transferencia de activos Agradecimiento al fundador y desarrolladores de Bitcoin. El proyecto Kron se lanzó sobre la base de Bitcoin y ha sido trabajo duro y esfuerzo continuo.
 
-Kron es una cadena de bloques y una plataforma optimizada para transferir activos, como tokens, de un titular a otro. Basado en el extenso desarrollo y prueba del Modelo UTXO del protocolo Bitcoin, Kron se basa en una bifurcación del código Bitcoin. Los cambios incluyen un tiempo de recompensa en bloque de cinco minutos, un cambio en la cantidad de monedas emitidas y la adición de creación de activos y capacidades de mensajería. Las billeteras de Kron son gratuitas y de código  parcialmente abierto. Todos los Kron (Kron) se minan en los nodos principales del entramado de red mediante el Protocolo SND utilizando el algoritmo x16r que fue Creado para Kron.
+Kron es una cadena de bloques y una plataforma optimizada para transferir activos, como tokens, de un titular a otro. Basado en el extenso desarrollo y prueba del Modelo UTXO del protocolo Bitcoin, Kron se basa en una bifurcación del código Bitcoin. Los cambios incluyen un tiempo de recompensa en bloque de cinco minutos, un cambio en la cantidad de monedas emitidas y la adición de creación de activos y capacidades de mensajería. Las billeteras de Kron son gratuitas y de código  parcialmente abierto.
 
 Kron tiene como objetivo priorizar la seguridad, el control del usuario, la privacidad y Resistencia a la censura. Está abierto a su uso y desarrollo en cualquier jurisdicción, al tiempo que permite funciones adicionales simples para los usuarios según sus necesidades.
 
