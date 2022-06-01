@@ -273,4 +273,3 @@ Kron es la moneda nativa de la su Blockchain. Como en la mayoría de las blockch
 incentivo y se utiliza para pagar las tarifas de la red y para recompensar el trabajo de los
 desarrolladores.
 
-Desarrollado Por:          Jober Urizare
